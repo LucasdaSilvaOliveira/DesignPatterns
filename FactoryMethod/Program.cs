@@ -1,6 +1,6 @@
 ﻿using FactoryMethod;
 
-Console.WriteLine("Factory Method!\n");
+Console.WriteLine("Simple Factory!\n");
 Console.WriteLine("Digite o animal que você gosta! (C)achorro ou (G)ato.\n");
 
 var animalEscolhido = Console.ReadLine();
