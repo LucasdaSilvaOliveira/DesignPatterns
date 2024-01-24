@@ -6,9 +6,18 @@ using System.Threading.Tasks;
 
 namespace FactoryMethod
 {
-    public class Gato : IAnimal
+    public class Gato : Animal
     {
-        public string FazerBarulho()
+        public Gato()
+        {
+            Nome = "Ajato";
+        }
+        public override string Apresentacao()
+        {
+            return $"Olá, meu nome é {Nome}!";
+        }
+
+        public override string FazerBarulho()
         {
             return "MIAUUU";
         }

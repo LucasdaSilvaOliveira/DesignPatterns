@@ -6,8 +6,11 @@ Console.WriteLine("Digite o animal que você gosta! (C)achorro ou (G)ato.\n");
 
 var animalEscolhido = Console.ReadLine();
 
-var animal = new AnimalSimpleFactory(animalEscolhido);
+var animalSF = new AnimalSimpleFactory();
 
-Console.WriteLine(animal.animal.FazerBarulho());
+var animalRetornado = animalSF.RetornarAnimal(animalEscolhido);
+
+Console.WriteLine(animalRetornado.FazerBarulho());
+Console.WriteLine(animalRetornado.Apresentacao());
 
 Console.ReadLine();

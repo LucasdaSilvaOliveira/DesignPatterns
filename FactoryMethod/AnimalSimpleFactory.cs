@@ -8,15 +8,20 @@ namespace FactoryMethod
 {
     public class AnimalSimpleFactory
     {
-        public IAnimal animal;
-        public AnimalSimpleFactory(string tipoAnimal)
+        public Animal animal;
+
+        public Animal RetornarAnimal(string tipoAnimal)
         {
-            if(tipoAnimal == "C")
+            if (tipoAnimal == "C")
             {
-                animal = new Cachorro();
-            } else if(tipoAnimal == "G")
+                return new Cachorro();
+            }
+            else if (tipoAnimal == "G")
             {
-                animal = new Gato();
+               return new Gato();
+            } else
+            {
+                throw new Exception("Animal não encontrado!");
             }
         }
     }
