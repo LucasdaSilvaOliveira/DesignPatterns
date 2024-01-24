@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FactoryMethod
 {
-    public class AnimalSimpleFactory
+    public sealed class AnimalSimpleFactory
     {
         public static Animal RetornarAnimal(string tipoAnimal)
         {
