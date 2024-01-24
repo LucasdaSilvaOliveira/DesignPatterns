@@ -8,9 +8,7 @@ namespace FactoryMethod
 {
     public class AnimalSimpleFactory
     {
-        public Animal animal;
-
-        public Animal RetornarAnimal(string tipoAnimal)
+        public static Animal RetornarAnimal(string tipoAnimal)
         {
             if (tipoAnimal == "C")
             {
