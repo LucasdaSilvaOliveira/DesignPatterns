@@ -17,10 +17,10 @@ namespace AbstractFactory
         {
             switch (tipoDaMassa)
             {
-                case "Mussarela":
+                case "Laranja":
                     return new BoloLaranja();
                     break;
-                case "Calabresa":
+                case "Chocolate":
                     return new BoloChocolate();
                     break;
                 default:
