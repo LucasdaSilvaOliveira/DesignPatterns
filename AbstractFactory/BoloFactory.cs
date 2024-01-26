@@ -13,9 +13,9 @@ namespace AbstractFactory
         {
             Nome = "Bolo";
         }
-        public override Bolo CriaMassa(string tipoDaMassa)
+        public override Bolo CriaMassa(string saborDaMassa)
         {
-            switch (tipoDaMassa)
+            switch (saborDaMassa)
             {
                 case "Laranja":
                     return new BoloLaranja();

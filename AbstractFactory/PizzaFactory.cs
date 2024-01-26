@@ -12,9 +12,9 @@ namespace AbstractFactory
         {
             Nome = "Pizza";
         }
-        public override Pizza CriaMassa(string tipoDaMassa)
+        public override Pizza CriaMassa(string saborDaMassa)
         {
-            switch (tipoDaMassa)
+            switch (saborDaMassa)
             {
                 case "Mussarela":
                     return new PizzaMussarela();

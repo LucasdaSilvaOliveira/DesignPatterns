@@ -2,6 +2,7 @@
 
 Console.WriteLine("Abstract Factory!\n");
 Console.WriteLine("Deseja ver informações sobre qual tipo de massa. Pizza ou Bolo?\n");
+
 var tipoMassaEscolhido = Console.ReadLine();
 
 var tipoMassaRetornado = MassaAbstractFactory.CriaFabricaMassa(tipoMassaEscolhido);
