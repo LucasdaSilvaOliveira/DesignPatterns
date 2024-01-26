@@ -22,7 +22,7 @@ namespace AbstractFactory
                 case "Chocolate":
                     return new BoloChocolate();
                 default:
-                    throw new Exception("Erro ao fazer a massa.");
+                    throw new InvalidOperationException("Erro ao fazer a massa.");
             }
         }
     }

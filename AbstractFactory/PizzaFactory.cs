@@ -21,7 +21,7 @@ namespace AbstractFactory
                 case "Calabresa":
                     return new PizzaCalabresa();
                 default:
-                    throw new Exception("Erro ao fazer a massa.");
+                    throw new InvalidOperationException("Erro ao fazer a massa.");
             }
         }
     }

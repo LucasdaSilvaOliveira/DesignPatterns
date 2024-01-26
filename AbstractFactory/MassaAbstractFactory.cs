@@ -21,7 +21,7 @@ namespace AbstractFactory
                 case "Bolo":
                     return new BoloFactory();
                 default:
-                    throw new Exception("Erro ao criar a fábrica.");
+                    throw new InvalidOperationException("Erro ao criar a fábrica.");
             }
         }
     }
