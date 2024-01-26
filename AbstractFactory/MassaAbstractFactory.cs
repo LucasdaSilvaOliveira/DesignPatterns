@@ -18,13 +18,10 @@ namespace AbstractFactory
             {
                 case "Pizza":
                     return new PizzaFactory();
-                    break;
                 case "Bolo":
                     return new BoloFactory();
-                    break;
                 default:
                     throw new Exception("Erro ao criar a fábrica.");
-                    break;
             }
         }
     }
