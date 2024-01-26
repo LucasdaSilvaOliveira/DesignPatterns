@@ -19,13 +19,10 @@ namespace AbstractFactory
             {
                 case "Laranja":
                     return new BoloLaranja();
-                    break;
                 case "Chocolate":
                     return new BoloChocolate();
-                    break;
                 default:
                     throw new Exception("Erro ao fazer a massa.");
-                    break;
             }
         }
     }
