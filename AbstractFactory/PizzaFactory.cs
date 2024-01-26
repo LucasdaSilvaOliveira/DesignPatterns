@@ -21,7 +21,7 @@ namespace AbstractFactory
                 case "Calabresa":
                     return new PizzaCalabresa();
                 default:
-                    throw new InvalidOperationException("Erro ao fazer a massa.");
+                    throw new ArgumentException("Tipo de fábrica de massa desconhecido.", nameof(saborDaMassa));
             }
         }
     }

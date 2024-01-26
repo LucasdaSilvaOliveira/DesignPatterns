@@ -21,7 +21,7 @@ namespace AbstractFactory
                 case "Bolo":
                     return new BoloFactory();
                 default:
-                    throw new InvalidOperationException("Erro ao criar a fábrica.");
+                    throw new ArgumentException("Tipo de fábrica de massa desconhecido.", nameof(tipoMassaFabrica));
             }
         }
     }
