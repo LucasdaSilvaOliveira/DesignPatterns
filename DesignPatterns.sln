@@ -15,7 +15,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Pratica", "Pratica", "{3912
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pratica.FactoryMethod", "Pratica.FactoryMethod\Pratica.FactoryMethod.csproj", "{E20C71EA-CE5D-45F8-BC59-1B66CA9BDA8D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pratica.AbstractFactory", "Pratica.AbstractFactory\Pratica.AbstractFactory.csproj", "{F612AFAB-E41B-44B2-A173-5EA8463D665E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pratica.AbstractFactory", "Pratica.AbstractFactory\Pratica.AbstractFactory.csproj", "{F612AFAB-E41B-44B2-A173-5EA8463D665E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pratica.Builder", "Pratica.Builder\Pratica.Builder.csproj", "{53FCB186-339F-4981-90DA-FB9AC8647C13}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +49,10 @@ Global
 		{F612AFAB-E41B-44B2-A173-5EA8463D665E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F612AFAB-E41B-44B2-A173-5EA8463D665E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F612AFAB-E41B-44B2-A173-5EA8463D665E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53FCB186-339F-4981-90DA-FB9AC8647C13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53FCB186-339F-4981-90DA-FB9AC8647C13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53FCB186-339F-4981-90DA-FB9AC8647C13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53FCB186-339F-4981-90DA-FB9AC8647C13}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -54,6 +60,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{E20C71EA-CE5D-45F8-BC59-1B66CA9BDA8D} = {391269E4-A78B-4EE3-97D3-5A5F5F50CFEF}
 		{F612AFAB-E41B-44B2-A173-5EA8463D665E} = {391269E4-A78B-4EE3-97D3-5A5F5F50CFEF}
+		{53FCB186-339F-4981-90DA-FB9AC8647C13} = {391269E4-A78B-4EE3-97D3-5A5F5F50CFEF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {25AF112B-9E76-4DEF-9A42-36C1496FC8A2}
